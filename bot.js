@@ -6,32 +6,32 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-  if (msg.content.ToLowerCase() === 'pelin') {
+  if (msg.content.toLowerCase() === 'pelin') {
     msg.reply('Bu ne ciddiyet! Gülücük koy ve biraz bekle BAKA!');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content.ToLowerCase() === 'gakupo') {
+  if (msg.content.toLowerCase() === 'gakupo') {
     msg.channel.sendMessage('Uykusuz gecelerimin sabahısın, bütün güzelliklerin adısın, sen benim kara sevdamsın♥');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content.ToLowerCase() === 'sa') {
+  if (msg.content.toLowerCase() === 'sa') {
     msg.reply('Aley- Aleyk- Merhaba!');
   }
 });
 
 
 client.on('message', msg => {
-  if (msg.content.ToLowerCase() === 'aman') {
+  if (msg.content.toLowerCase() === 'aman') {
     msg.reply('Hayat böyle geçmez!');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content.ToLowerCase() === 'off') {
+  if (msg.content.toLowerCase() === 'off') {
     msg.reply('Yoruldun be! Yoruldun artık hayattan! Buraya gel BAKAA!');
   }
 });
