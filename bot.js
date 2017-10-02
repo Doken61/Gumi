@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-  if (msg.content.ToLowerCase () === 'pelin') {
+  if (msg.content.ToLowerCase() === 'pelin') {
     msg.reply('Bu ne ciddiyet! Gülücük koy ve biraz bekle BAKA!');
   }
 });
