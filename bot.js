@@ -29,4 +29,16 @@ client.on('message', msg => {
   }
 });
 
+client.on('message', msg => {
+  if (msg.content === 'Aman') {
+    msg.reply('Hayat böyle geçmez!');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === 'aman') {
+    msg.reply('Hayat böyle geçmez!');
+  }
+});
+
 client.login(process.env.BOT_TOKEN);
