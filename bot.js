@@ -6,25 +6,19 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-  if (msg.content === 'pelin') {
-    msg.reply('Gakupo!');
+  if (msg.content.ToLowerCase () === 'pelin') {
+    msg.reply('Bu ne ciddiyet! Gülücük koy ve biraz bekle BAKA!');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === 'gakupo') {
-    msg.channel.sendMessage('Sevi-seviyorum Gakupo♥');
+  if (msg.content.ToLowerCase () === 'gakupo') {
+    msg.channel.sendMessage('Uykusuz gecelerimin sabahısın, bütün güzelliklerin adısın, sen benim kara sevdamsın♥');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === 'Gakupo') {
-    msg.channel.sendMessage('Ölene kadar seviyorum samurayım♥');
-  }
-});
-
-client.on('message', msg => {
-  if (msg.content === 'Sa') {
+  if (msg.content.ToLowerCase () === 'sa') {
     msg.reply('Aley- Aleyk- Merhaba!');
   }
 });
@@ -42,8 +36,8 @@ client.on('message', msg => {
 });
 
 client.on('message', msg => {
-  if (msg.content === 'off') {
-    msg.reply('Kıskanmadık!');
+  if (msg.content.ToLowerCase () === 'off') {
+    msg.reply('Yoruldun be! Yoruldun artık hayattan! Buraya gel BAKAA!');
   }
 });
 
