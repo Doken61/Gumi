@@ -41,4 +41,10 @@ client.on('message', msg => {
   }
 });
 
+client.on('message', msg => {
+  if (msg.content === 'off') {
+    msg.reply('Kıskanmadık!');
+  }
+});
+
 client.login(process.env.BOT_TOKEN);
